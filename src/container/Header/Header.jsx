@@ -15,8 +15,13 @@ const Header = () => (
         lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
         lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.
       </p>
+      <button type="button" className="custom__button">
+        Explore Menu
+      </button>
     </div>
-    <div className="app__wrapper_img"></div>
+    <div className="app__wrapper_img">
+      <img src={images.welcome} alt="header image" />
+    </div>
   </div>
 );
 
