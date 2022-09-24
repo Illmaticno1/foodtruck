@@ -24,12 +24,7 @@
 .app__menuitem-dash {
   width: 90px;
   height: 1px;
-
   background: var(--color-golden);
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 0 1rem;
 }
 
